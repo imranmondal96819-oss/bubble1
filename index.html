@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Game</title>
+    <link rel="shortcut icon" href="https://img.freepik.com/premium-vector/bubble-worlds-3d-game-logo-design_75802-1651.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <div class="main">
+   <div class="container">
+    <div class="top-bar">
+        <div class="stat"><i class="ri-focus-3-line"></i> Hit:
+            <span id="hit">0</span>
+        </div><!--stat-->
+        <div class="stat"><i class="ri-timer-line"></i> Timer:
+            <span id="timer">60</span>
+        </div><!--stat-->
+        <div class="stat"><i class="ri-numbers-line"></i> Score:
+            <span id="score">0</span>
+        </div><!--stat-->
+         </div>
+        <div class="bubble-container" id="bubble">
+        </div>
+        <div id="result">
+            <div class="top">
+                <i class="ri-trophy-fill"></i>
+                 <!-- <i class="ri-trophy-line"></i> -->
+                <h2>High Score:</h2>
+            <span id="highscore">0</span>
+            </div>
+            <div class="bottom">
+                <!-- <i class="ri-numbers-fill"></i> -->
+                <h3 id="userscore"></h3>
+            </div>
+        </div>
+   </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
