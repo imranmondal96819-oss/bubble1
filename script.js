@@ -1,5 +1,5 @@
 var score = 0;
-var timer =60;
+var timer = 60;
 var hitrn = 0;
 
 var highScore = localStorage.getItem('highscore') ? parseInt(localStorage.getItem('highscore')) : 0;
